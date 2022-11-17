@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+form {
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
+  height: 350px;
+  width: 360px;
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 0 0 15px;
+  margin-top: 40px;
+}
+
+.inputDescription {
+  font-size: 15px;
+  height: 50px;
+  width: 90%;
+  background: #f8f9fa;
+  border: 2px solid #f8f9fa;
+  border-radius: 8px;
+  padding-left: 15px;
+  margin-top: 15px;
+}
+
+form p {
+  color: #868e96;
+  font-size: 12px;
+}
+
+.divValues {
+  display: flex;
+}
+
+.divValues > div {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+.divValues input {
+  width: 138px;
+  height: 48px;
+  background: #f8f9fa;
+  border: 2px solid #f8f9fa;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+select {
+  width: 148px;
+  height: 48px;
+  background: #f8f9fa;
+  border: 2px solid #f8f9fa;
+  border-radius: 8px;
+  margin-top: 10px;
+  padding-left: 15px;
+  font-size: 15px;
+}
+
+select option {
+  width: 140px;
+  height: 45px;
+}
+
+form button {
+  margin-top: 30px;
+  width: 95%;
+  height: 48px;
+  background-color: #fd377e;
+  color: white;
+  font-size: 15px;
+  padding-top: 0;
+}

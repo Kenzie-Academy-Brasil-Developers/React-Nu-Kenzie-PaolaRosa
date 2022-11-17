@@ -1,0 +1,5 @@
+.DivContainer {
+  display: flex;
+  justify-content: center;
+  gap: 130px;
+}

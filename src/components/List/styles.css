@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 560px;
+  height: 50px;
+  margin-top: 30px;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+}
+
+nav button {
+  width: 90px;
+  margin: 0 10px;
+  background-color: #e9ecef;
+  color: black;
+  height: 40px;
+  font-size: 15px;
+  padding-top: 0;
+}
+
+nav button:hover {
+  background-color: #fd377e;
+  color: white;
+}
+.divNoCard {
+  width: 560px;
+}
+
+.divNoCard h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 24px;
+  margin-top: 40px;
+}
