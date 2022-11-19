@@ -74,3 +74,21 @@ form button {
   font-size: 15px;
   padding-top: 0;
 }
+
+@media (max-width: 700px) {
+  .DivContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  form {
+    width: 90vw;
+  }
+  .divValues input,
+  .divValues select {
+    width: 30vw;
+  }
+  form > p {
+    margin-top: 10px;
+  }
+}

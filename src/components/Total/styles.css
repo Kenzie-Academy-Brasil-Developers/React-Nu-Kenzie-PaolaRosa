@@ -27,3 +27,9 @@ h5 {
   color: #fd377e;
   margin-right: 40px;
 }
+
+@media (max-width: 700px) {
+  .divTotal {
+    width: 98%;
+  }
+}

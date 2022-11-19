@@ -34,3 +34,42 @@ nav button:hover {
   font-size: 24px;
   margin-top: 40px;
 }
+li {
+  margin-left: 0;
+  background-color: blue;
+}
+
+@media (max-width: 700px) {
+  nav {
+    width: 90vw;
+    display: flex;
+    justify-content: flex-start;
+  }
+  nav button {
+    width: 55px;
+    font-size: 12px;
+    margin: 0 0 0 5px;
+  }
+  nav h3 {
+    font-size: 14px;
+  }
+  ul {
+    width: 90%;
+    margin-left: 0;
+    min-height: 50px;
+  }
+  ul h2 {
+    width: 90vw;
+  }
+  ul img {
+    width: 90vw;
+  }
+  .divNoCard {
+    width: 90%;
+  }
+  .divNoCard h2 {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+}

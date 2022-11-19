@@ -1,5 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .DivContainer {
   display: flex;
   justify-content: center;
-  gap: 130px;
+  gap: 170px;
+}
+
+@media (max-width: 700px) {
+  .DivContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    width: 100vw;
+  }
 }

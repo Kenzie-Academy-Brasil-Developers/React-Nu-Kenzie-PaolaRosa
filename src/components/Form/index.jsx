@@ -33,7 +33,7 @@ export function Form({ listTransactions, setListTransactions }) {
       <div className="divValues">
         <div>
           <label>Valor</label>
-          <input type="number" placeholder="R$" />
+          <input className="inputForm" type="number" placeholder="R$" />
         </div>
         <div>
           <label>Tipo de valor</label>

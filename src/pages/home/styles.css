@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 
-.divContainer {
+.divContainerHome {
   background-color: #212529;
   width: 100vw;
   height: 100vh;
@@ -11,22 +11,64 @@
   gap: 100px;
 }
 
-.divContainer > div {
+.divContainerHome > div {
   max-width: 400px;
 }
-.divContainer h2 {
+.divContainerHome h2 {
   color: white;
   font-size: 38px;
 }
-.divContainer p {
+.divContainerHome p {
   color: white;
   font-size: 16px;
+  margin: 20px 0;
 }
-.divContainer button {
+.divContainerHome button {
   width: 240px;
   height: 48px;
   background-color: #fd377e;
   border-radius: 8px;
   color: white;
   border: none;
+}
+
+@media (max-width: 700px) {
+  .divContainerHome {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 0;
+  }
+  .imgHome {
+    width: 90%;
+    height: 300px;
+  }
+  .divContainerHome > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 30px 20px 0 20px;
+    gap: 20px;
+    position: relative;
+  }
+  .imgLogo {
+    height: 20px;
+  }
+  .divContainerHome div h2 {
+    font-size: 26px;
+  }
+  .divContainerHome div p {
+    margin-top: 0;
+  }
+  .divContainerHome div button {
+    width: 95%;
+  }
+  .divImgHome {
+    width: 90%;
+    height: 300px;
+    position: relative;
+    top: 0;
+    margin: 0px;
+  }
 }
